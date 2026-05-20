@@ -1,0 +1,29 @@
+/* Professional shared UI tweaks (safe overrides) */
+
+:root{
+  --brand:#0b5d8b;
+  --brand2:#0d6fa8;
+  --text:#0f172a;
+  --muted:#64748b;
+  --bg:#f0f4f8;
+  --card:#ffffff;
+  --border:#e2e8f0;
+}
+
+/* Global base */
+*{ box-sizing:border-box; }
+body{ background:var(--bg); color:var(--text); }
+
+/* Buttons */
+button, .add-btn, .add-fin-btn, .save-btn, .cancel-btn, .logout, .del-btn, .btn-del-sm{
+  font-family: Arial, sans-serif;
+}
+
+/* Consistent table look */
+.table-card table, table{
+  border-collapse:collapse;
+}
+
+/* Small helper */
+.badge{ font-family: Arial, sans-serif; }
+
